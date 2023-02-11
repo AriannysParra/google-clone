@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+    header{
+    width: 100%;
+    height: 60px;
+   
+}
+ header nav {
+    display: flex;
+    justify-content: flex-end;
+}
+header nav .nav-derecha-section{
+    list-style: none;
+    display:flex;
+    width: 250px;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+nav .nav-derecha-section a{
+    margin-right: 10px;
+    color: black;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+nav .nav-derecha-section .menu-icon{
+    background-image:url('imagenes/baseline_apps_black_24dp.png');
+    background-repeat: no-repeat;
+    background-position:center;
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+nav .nav-derecha-section img{
+    border-radius: 50%;
+    
+
+    
+}
